@@ -1,0 +1,209 @@
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta32.1.dtd" >
+   <PATCH nodename="C:\NormanBates_06\nanoKontrol2\Korg_LEDsColumn.v4p" systemname="Korg_LEDsColumn" filename="C:\NormanBates_06\nanoKontrol2\Korg_LEDsColumn.v4p">
+   <NODE systemname="LED_Korgsito" filename="..\Korg\LED_Korgsito.v4p" nodename="LED_Korgsito.v4p" componentmode="Hidden" id="0">
+   <BOUNDS type="Node" left="720" top="3225" width="1230" height="270">
+   </BOUNDS>
+   <PIN pinname="Send" visible="1">
+   </PIN>
+   <PIN pinname="Input" visible="1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="SMR">
+   </PIN>
+   </NODE>
+   <NODE systemname="LED_Korgsito" filename="..\Korg\LED_Korgsito.v4p" nodename="LED_Korgsito.v4p" componentmode="Hidden" id="1">
+   <BOUNDS type="Node" left="1260" top="3630" width="1230" height="270">
+   </BOUNDS>
+   <PIN pinname="Send" visible="1">
+   </PIN>
+   <PIN pinname="Input" visible="1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="SMR">
+   </PIN>
+   </NODE>
+   <NODE systemname="LED_Korgsito" filename="..\Korg\LED_Korgsito.v4p" nodename="LED_Korgsito.v4p" componentmode="Hidden" id="2">
+   <BOUNDS type="Node" left="1800" top="4065" width="1230" height="270">
+   </BOUNDS>
+   <PIN pinname="Send" visible="1">
+   </PIN>
+   <PIN pinname="Input" visible="1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="SMR">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="3" systemname="IOBox (Value Advanced)" exposed="0">
+   <BOUNDS type="Box" left="735" top="960" width="375" height="930">
+   </BOUNDS>
+   <BOUNDS type="Node" left="735" top="960" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0">
+   </PIN>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Vector Size" slicecount="1" values="3">
+   </PIN>
+   <PIN pinname="Rows" slicecount="1" values="3">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="SMR">
+   </PIN>
+   <PIN pinname="Value Type" slicecount="1" values="Boolean">
+   </PIN>
+   <PIN pinname="X Input Value" slicecount="3" values="0,0,0">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="String2Enum (Enumerations)" nodename="String2Enum (Enumerations)" componentmode="Hidden" id="4">
+   <BOUNDS type="Node" left="2415" top="2385" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="String Value" visible="1">
+   </PIN>
+   <PIN pinname="Enum" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="Add (String)" nodename="Add (String)" componentmode="Hidden" id="5">
+   <BOUNDS type="Node" left="2415" top="2055" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input 1" slicecount="1" values="LED_S_0">
+   </PIN>
+   <PIN pinname="Input 2" visible="1">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="6" systemname="IOBox (Value Advanced)" exposed="0">
+   <BOUNDS type="Box" left="2610" top="1125" width="405" height="270">
+   </BOUNDS>
+   <BOUNDS type="Node" left="2610" top="1125" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="4">
+   </PIN>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Value Type" slicecount="1" values="Integer">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="Number">
+   </PIN>
+   <PIN pinname="X Input Value" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   <PIN pinname="Minimum" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Maximum" slicecount="1" values="8">
+   </PIN>
+   </NODE>
+   <NODE systemname="AsString (Value)" nodename="AsString (Value)" componentmode="Hidden" id="7">
+   <BOUNDS type="Node" left="2595" top="1605" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input" visible="1">
+   </PIN>
+   <PIN pinname="SubType" slicecount="1" values="|Integer (MinInt .. MaxInt)|">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="String2Enum (Enumerations)" nodename="String2Enum (Enumerations)" componentmode="Hidden" id="8">
+   <BOUNDS type="Node" left="2970" top="3060" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="String Value" visible="1">
+   </PIN>
+   <PIN pinname="Enum" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="Add (String)" nodename="Add (String)" componentmode="Hidden" id="9">
+   <BOUNDS type="Node" left="2970" top="2730" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input 1" slicecount="1" values="LED_M_0">
+   </PIN>
+   <PIN pinname="Input 2" visible="1">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="String2Enum (Enumerations)" nodename="String2Enum (Enumerations)" componentmode="Hidden" id="10">
+   <BOUNDS type="Node" left="3510" top="3750" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="String Value" visible="1">
+   </PIN>
+   <PIN pinname="Enum" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="Add (String)" nodename="Add (String)" componentmode="Hidden" id="11">
+   <BOUNDS type="Node" left="3510" top="3420" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input 1" slicecount="1" values="LED_R_0">
+   </PIN>
+   <PIN pinname="Input 2" visible="1">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="Vector (3d Split)" nodename="Vector (3d Split)" componentmode="Hidden" id="12" filename="">
+   <BOUNDS type="Node" left="735" top="2775" width="1110" height="270">
+   </BOUNDS>
+   <PIN pinname="X" visible="1">
+   </PIN>
+   <PIN pinname="Y" visible="1">
+   </PIN>
+   <PIN pinname="Z" visible="1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="SMR">
+   </PIN>
+   <PIN pinname="Output Count">
+   </PIN>
+   <PIN pinname="Input" visible="1">
+   </PIN>
+   <PIN pinname="Output 1" visible="1">
+   </PIN>
+   <PIN pinname="XYZ" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="12" srcpinname="X" dstnodeid="0" dstpinname="Input">
+   </LINK>
+   <LINK srcnodeid="4" srcpinname="Enum" dstnodeid="0" dstpinname="Send">
+   </LINK>
+   <LINK srcnodeid="3" srcpinname="Y Output Value" dstnodeid="12" dstpinname="XYZ">
+   </LINK>
+   <LINK srcnodeid="12" srcpinname="Y" dstnodeid="1" dstpinname="Input">
+   </LINK>
+   <LINK srcnodeid="8" srcpinname="Enum" dstnodeid="1" dstpinname="Send">
+   </LINK>
+   <LINK srcnodeid="12" srcpinname="Z" dstnodeid="2" dstpinname="Input">
+   </LINK>
+   <LINK srcnodeid="10" srcpinname="Enum" dstnodeid="2" dstpinname="Send">
+   </LINK>
+   <LINK srcnodeid="5" srcpinname="Output" dstnodeid="4" dstpinname="String Value">
+   </LINK>
+   <LINK srcnodeid="7" srcpinname="Output" dstnodeid="5" dstpinname="Input 2" linkstyle="VHV">
+   <LINKPOINT x="2615" y="1988">
+   </LINKPOINT>
+   <LINKPOINT x="2620" y="1943">
+   </LINKPOINT>
+   </LINK>
+   <LINK srcnodeid="6" srcpinname="Y Output Value" dstnodeid="7" dstpinname="Input">
+   </LINK>
+   <LINK srcnodeid="9" srcpinname="Output" dstnodeid="8" dstpinname="String Value">
+   </LINK>
+   <LINK srcnodeid="7" srcpinname="Output" dstnodeid="9" dstpinname="Input 2" linkstyle="VHV">
+   <LINKPOINT x="2660" y="2325">
+   </LINKPOINT>
+   <LINKPOINT x="3145" y="2280">
+   </LINKPOINT>
+   </LINK>
+   <LINK srcnodeid="11" srcpinname="Output" dstnodeid="10" dstpinname="String Value">
+   </LINK>
+   <LINK srcnodeid="7" srcpinname="Output" dstnodeid="11" dstpinname="Input 2" linkstyle="VHV">
+   <LINKPOINT x="2660" y="2670">
+   </LINKPOINT>
+   <LINKPOINT x="3685" y="2625">
+   </LINKPOINT>
+   </LINK>
+   <BOUNDS type="Window" left="5955" top="2790" width="5130" height="5520">
+   </BOUNDS>
+   <PACK Name="addonpack" Version="31.9.0">
+   </PACK>
+   </PATCH>
