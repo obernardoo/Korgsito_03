@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta32.1.dtd" >
-   <PATCH nodename="C:\NormanBates_06\nanoKontrol2\Korg_LEDsColumn.v4p" systemname="Korg_LEDsColumn" filename="C:\NormanBates_06\nanoKontrol2\Korg_LEDsColumn.v4p">
-   <NODE systemname="LED_Korgsito" filename="..\Korg\LED_Korgsito.v4p" nodename="LED_Korgsito.v4p" componentmode="Hidden" id="0">
+   <PATCH nodename="C:\Users\lalo\Documents\GitHub\Korgsito_03\Korg_LEDsColumn.v4p" systemname="Korg_LEDsColumn" filename="C:\NormanBates_06\nanoKontrol2\Korg_LEDsColumn.v4p">
+   <NODE systemname="Korg_LED" filename="Korg_LED.v4p" nodename="Korg_LED.v4p" componentmode="Hidden" id="0">
    <BOUNDS type="Node" left="720" top="3225" width="1230" height="270">
    </BOUNDS>
    <PIN pinname="Send" visible="1">
@@ -10,7 +10,7 @@
    <PIN pinname="Descriptive Name" slicecount="1" values="SMR">
    </PIN>
    </NODE>
-   <NODE systemname="LED_Korgsito" filename="..\Korg\LED_Korgsito.v4p" nodename="LED_Korgsito.v4p" componentmode="Hidden" id="1">
+   <NODE systemname="Korg_LED" filename="Korg_LED.v4p" nodename="Korg_LED.v4p" componentmode="Hidden" id="1">
    <BOUNDS type="Node" left="1260" top="3630" width="1230" height="270">
    </BOUNDS>
    <PIN pinname="Send" visible="1">
@@ -20,7 +20,7 @@
    <PIN pinname="Descriptive Name" slicecount="1" values="SMR">
    </PIN>
    </NODE>
-   <NODE systemname="LED_Korgsito" filename="..\Korg\LED_Korgsito.v4p" nodename="LED_Korgsito.v4p" componentmode="Hidden" id="2">
+   <NODE systemname="Korg_LED" filename="Korg_LED.v4p" nodename="Korg_LED.v4p" componentmode="Hidden" id="2">
    <BOUNDS type="Node" left="1800" top="4065" width="1230" height="270">
    </BOUNDS>
    <PIN pinname="Send" visible="1">

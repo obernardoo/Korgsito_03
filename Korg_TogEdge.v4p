@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta32.1.dtd" >
-   <PATCH nodename="C:\NormanBates_06\nanoKontrol2\Korg_TogEdge.v4p" systemname="Korg_TogEdge" filename="C:\NormanBates_06\nanoKontrol2\Korg_TogEdge.v4p">
+   <PATCH nodename="C:\NormanBates_06\Visuales3_008\Korg\Korg_TogEdge.v4p" systemname="Korg_TogEdge" filename="C:\NormanBates_06\nanoKontrol2\Korg_TogEdge.v4p">
    <BOUNDS type="Window" left="6090" top="3555" width="3660" height="4680">
    </BOUNDS>
    <PACK Name="addonpack" Version="31.9.0">
@@ -66,6 +66,36 @@
    </LINK>
    <LINK srcnodeid="2" srcpinname="Down Edge" dstnodeid="4" dstpinname="Y Input Value">
    </LINK>
-   <LINK srcnodeid="0" srcpinname="Input Value" dstnodeid="2" dstpinname="Input">
+   <NODE systemname="AND (Boolean)" nodename="AND (Boolean)" componentmode="Hidden" id="5">
+   <BOUNDS type="Node" left="1020" top="2100" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input 1" visible="1">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="0" srcpinname="Input Value" dstnodeid="5" dstpinname="Input 1">
+   </LINK>
+   <LINK srcnodeid="5" srcpinname="Output" dstnodeid="2" dstpinname="Input">
+   </LINK>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="6" systemname="IOBox (Value Advanced)">
+   <BOUNDS type="Box" left="2835" top="1110" width="480" height="480">
+   </BOUNDS>
+   <BOUNDS type="Node" left="2835" top="1110" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Value Type" slicecount="1" values="Boolean">
+   </PIN>
+   <PIN pinname="Behavior" slicecount="1" values="Toggle">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="Enable">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="6" srcpinname="Y Output Value" dstnodeid="5" dstpinname="Input 2">
    </LINK>
    </PATCH>

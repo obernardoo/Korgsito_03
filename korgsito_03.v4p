@@ -23,19 +23,19 @@
    </PIN>
    </NODE>
    <NODE componentmode="InABox" hiddenwhenlocked="0" id="37" nodename="IOBox (Enumerations)" systemname="IOBox (Enumerations)">
-   <BOUNDS height="0" left="2835" top="1065" type="Node" width="0">
+   <BOUNDS height="0" left="1500" top="780" type="Node" width="0">
    </BOUNDS>
    <BOUNDS height="160" left="7875" top="6195" type="Window" width="215">
    </BOUNDS>
-   <BOUNDS height="480" left="2835" top="1065" type="Box" width="5970">
+   <BOUNDS height="375" left="1500" top="780" type="Box" width="4080">
    </BOUNDS>
    <PIN pinname="Output Enum" visible="1">
    </PIN>
    <PIN pinname="Input Enum" slicecount="1" values="|nanoKONTROL2 1 SLIDER/KNOB|">
    </PIN>
-   <PIN pinname="Size" slicecount="1" values="15">
+   <PIN pinname="Size" slicecount="1" values="12">
    </PIN>
-   <PIN pinname="Font" slicecount="1" values="|OCR A Std|">
+   <PIN pinname="Font" slicecount="1" values="|Lucida Sans Unicode|">
    </PIN>
    <PIN pinname="Descriptive Name" slicecount="1" values="|Midi Input Port|">
    </PIN>
@@ -917,9 +917,9 @@
    <LINK dstnodeid="410" dstpinname="Input Value" srcnodeid="135" srcpinname="Output 56">
    </LINK>
    <NODE nodename="IOBox (String)" componentmode="InABox" id="426" systemname="IOBox (String)">
-   <BOUNDS type="Node" left="14850" top="795" width="3300" height="270">
+   <BOUNDS type="Node" left="13140" top="675" width="3300" height="270">
    </BOUNDS>
-   <BOUNDS type="Box" left="14850" top="795" width="3330" height="1035">
+   <BOUNDS type="Box" left="13140" top="675" width="3270" height="750">
    </BOUNDS>
    <PIN pinname="Input String" visible="0" slicecount="1" encoded="0" values="|module made by GUI    gui.shade@gmail.com&cr;&lf;reformuler by obernardoo&cr;&lf;inspirado en Seba Jeba|">
    </PIN>
@@ -933,13 +933,13 @@
    <NODE systemname="IOBox (Enumerations)" nodename="IOBox (Enumerations)" componentmode="InABox" id="429">
    <BOUNDS type="Node" left="2055" top="12255" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="2055" top="12255" width="4260" height="525">
+   <BOUNDS type="Box" left="2055" top="12255" width="3180" height="375">
    </BOUNDS>
    <PIN pinname="Output Enum" visible="1">
    </PIN>
    <PIN pinname="Input Enum" slicecount="1" values="|nanoKONTROL2 1 CTRL|">
    </PIN>
-   <PIN pinname="Size" slicecount="1" values="17">
+   <PIN pinname="Size" slicecount="1" values="12">
    </PIN>
    <PIN pinname="Descriptive Name" slicecount="1" values="|Midi Output Port|">
    </PIN>
@@ -967,7 +967,7 @@
    </PIN>
    <PIN pinname="Pin Visibility" slicecount="1" values="True">
    </PIN>
-   <PIN pinname="Descriptive Name" slicecount="1" values="|Input 3|">
+   <PIN pinname="Descriptive Name" slicecount="1" values="|buttons SMR|">
    </PIN>
    </NODE>
    <NODE systemname="R (Value Advanced)" filename="%VVVV%\addonpack\lib\nodes\plugins\RSNodes.dll" nodename="R (Value Advanced)" componentmode="Hidden" id="458">
@@ -1615,7 +1615,7 @@
    </PIN>
    <PIN pinname="Pin Visibility" slicecount="1" values="True">
    </PIN>
-   <PIN pinname="Descriptive Name" slicecount="1" values="Input">
+   <PIN pinname="Descriptive Name" slicecount="1" values="|buttons Control|">
    </PIN>
    </NODE>
    <NODE systemname="Unzip (Value)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="Unzip (Value)" componentmode="Hidden" id="535">
@@ -1683,7 +1683,7 @@
    </PIN>
    <PIN pinname="Y Output Value" visible="1">
    </PIN>
-   <PIN pinname="Descriptive Name" slicecount="1" values="|Input 2|">
+   <PIN pinname="Descriptive Name" slicecount="1" values="Cycle">
    </PIN>
    </NODE>
    <LINK srcnodeid="534" srcpinname="Output" dstnodeid="532" dstpinname="Input 1">
@@ -1781,9 +1781,9 @@
    <LINK srcnodeid="532" srcpinname="Output" dstnodeid="550" dstpinname="Input 2">
    </LINK>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="551" systemname="IOBox (Value Advanced)">
-   <BOUNDS type="Box" left="15495" top="11070" width="480" height="480">
+   <BOUNDS type="Box" left="4920" top="11055" width="480" height="480">
    </BOUNDS>
-   <BOUNDS type="Node" left="15495" top="11070" width="0" height="0">
+   <BOUNDS type="Node" left="4920" top="11055" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Y Input Value" slicecount="1" values="1">
    </PIN>
@@ -1797,15 +1797,15 @@
    </PIN>
    <PIN pinname="X Input Value" slicecount="1" values="0">
    </PIN>
-   <PIN pinname="Descriptive Name" slicecount="1" values="Switch">
+   <PIN pinname="Descriptive Name" slicecount="1" values="|Switch Receive/Pin|">
    </PIN>
    </NODE>
    <LINK srcnodeid="551" srcpinname="Y Output Value" dstnodeid="550" dstpinname="Switch">
    </LINK>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="552" systemname="IOBox (Value Advanced)">
-   <BOUNDS type="Box" left="1860" top="990" width="480" height="480">
+   <BOUNDS type="Box" left="12360" top="465" width="480" height="480">
    </BOUNDS>
-   <BOUNDS type="Node" left="1860" top="990" width="0" height="0">
+   <BOUNDS type="Node" left="12360" top="465" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Y Input Value" slicecount="1" values="1">
    </PIN>
@@ -1819,13 +1819,15 @@
    </PIN>
    <PIN pinname="Descriptive Name" slicecount="1" values="Enabled">
    </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
    </NODE>
    <LINK srcnodeid="429" srcpinname="Output Enum" dstnodeid="529" dstpinname="Midi Output Port">
    </LINK>
    <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="565">
-   <BOUNDS type="Node" left="9315" top="885" width="100" height="100">
+   <BOUNDS type="Node" left="11775" top="465" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="9315" top="885" width="480" height="480">
+   <BOUNDS type="Box" left="11775" top="465" width="480" height="480">
    </BOUNDS>
    <PIN pinname="Value Type" slicecount="1" values="Boolean">
    </PIN>
@@ -1837,7 +1839,7 @@
    </PIN>
    </NODE>
    <NODE systemname="NOT (Boolean)" nodename="NOT (Boolean)" componentmode="Hidden" id="566">
-   <BOUNDS type="Node" left="9315" top="1440" width="100" height="100">
+   <BOUNDS type="Node" left="11775" top="1020" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Input" visible="1">
    </PIN>
@@ -1846,8 +1848,22 @@
    </NODE>
    <LINK srcnodeid="565" srcpinname="Y Output Value" dstnodeid="566" dstpinname="Input">
    </LINK>
-   <LINK srcnodeid="566" srcpinname="Output" dstnodeid="512" dstpinname="Enabled">
+   <NODE systemname="AND (Boolean)" nodename="AND (Boolean)" componentmode="Hidden" id="567">
+   <BOUNDS type="Node" left="11790" top="1470" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input 1" visible="1">
+   </PIN>
+   <PIN pinname="Input 2" visible="1">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="567" srcpinname="Output" dstnodeid="512" dstpinname="Enabled">
    </LINK>
-   <LINK srcnodeid="566" srcpinname="Output" dstnodeid="529" dstpinname="Enabled">
+   <LINK srcnodeid="567" srcpinname="Output" dstnodeid="529" dstpinname="Enabled">
+   </LINK>
+   <LINK srcnodeid="566" srcpinname="Output" dstnodeid="567" dstpinname="Input 1">
+   </LINK>
+   <LINK srcnodeid="552" srcpinname="Y Output Value" dstnodeid="567" dstpinname="Input 2">
    </LINK>
    </PATCH>
